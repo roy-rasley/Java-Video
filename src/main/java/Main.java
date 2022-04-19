@@ -4,9 +4,10 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-       int x = 10 + (3 * 2);
-        System.out.println(x);
-
-
+       //implicit casting
+        //byte > short > int > long
+        short x = 1;
+       int y = x + 2;
+        System.out.println(y);
     }
 }
