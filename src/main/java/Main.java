@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-       int result = (int)Math.ceil(1.1F);
+       int result = (int)Math.max(50,100);
         System.out.println(result);
     }
 }
